@@ -1,0 +1,214 @@
+/*corpo da pagina*/
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Tahoma', "Arial";
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/*sessão header da pg*/
+header {
+    background-image: linear-gradient(rgb(4, 48, 76), white 95%);
+
+    padding: 60px 0;
+}
+
+.servicos {
+    background-color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+/*sessão nav (navegação) da pg*/
+nav {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(68, 48, 48);
+    text-decoration: underline;
+}
+
+/*lista da pagina*/
+ul {
+    list-style: none;
+}
+
+/*logotipo*/
+.logo_caixa {
+    width: 940px;
+    position: relative;
+    margin: auto;
+
+}
+
+.Logao {
+    width: 40%;
+    height: 40%;
+}
+
+.banner {
+    width: 100%
+}
+
+.logo {
+    width: 30%;
+    border-radius: 50px;
+
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: medium;
+    margin: 0 0 1em;
+    clear: center;
+
+}
+
+.opcoes {
+    color: aliceblue;
+}
+
+.principal {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.prinpal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.rouf {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.map {
+    padding: 3em 0;
+    background: white;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.map p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.video {
+    padding: 3em 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cards.grid {
+    gap: 1.5rem;
+}
+
+
+
+.card {
+    padding: 3.625rem 2rem;
+    box-shadow: 0px 0px 12px #b12a02;
+    border-radius: 0.25rem 0.25rem 0 0;
+    text-align: center;
+    background: white;
+
+
+}
+
+.card img {
+    display: block;
+    margin-bottom: 1.5rem;
+    font-size: 5rem;
+    color: var(--base-color);
+
+}
+
+.card .title {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.img-nivel {
+    width: 30%;
+    margin-left: 90px;
+}
+
+
+.rodape {
+    text-align: center;
+    background-image: linear-gradient(white, rgb(4, 48, 76)95%);
+
+    color: white;
+    padding-bottom: 20px;
+}
+
+.cards.grid {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    font-size: larger;
+}
+
+.card1 {
+    align-items: center;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    width: 750px;
+    height: 300px;
+    margin-left: 20px;
+
+}
+
+.card2 {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    width: 750px;
+    height: 300px;
+}
+
+.card3 {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    align-items: center;
+    width: 750px;
+    height: 300px;
+    margin-right: 20px;
+}
